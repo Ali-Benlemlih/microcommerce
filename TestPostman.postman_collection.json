@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "6bd12dfb-87f6-477d-8cdc-571779979fee",
+		"name": "TestPostman",
+		"description": "\n\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/Produits",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"id\": 2,\n        \"nom\": \"Imprimante\",\n        \"prix\": 0,\n        \"prixAchat\": 100\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/Produits",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Produits"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/AdminProduits",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/AdminProduits",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"AdminProduits"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/Trier",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/Trier",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Trier"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
